@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+}
+div {
+  border: 2px solid black;
+}
+
+.container {
+  display: flex;
+}
+.item {
+  width: 200px;
+  margin: 5px;
+  background-color: #009688;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  padding: 10px
+}
+
+.flex-flow{
+  flex-flow: column-reverse wrap;
+  height: 800px;
+}
